@@ -15,6 +15,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+       <repository>
+         <id>nexus</id>
+         <name>Internal repo</name>
+         <url>http://3.82.150.219:8081/nexus/content/repositories/maven-snapshots</url>
+       </repository>
+  </distributionManagement>
   <build>
     <plugins>
       <plugin>
